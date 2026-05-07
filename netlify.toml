@@ -2,5 +2,10 @@
   command = "npm run build"
   publish = ".next"
 
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 # REMOVE the [[plugins]] section entirely. 
 # Netlify installs the correct version automatically.
